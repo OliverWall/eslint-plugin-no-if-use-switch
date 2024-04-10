@@ -1,0 +1,16 @@
+{
+  "name": "eslint-plugin-sort-vars",
+  "version": "1.0.0",
+  "description": "Custom ESLint plugin for sort vars",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./sort-vars.test.js"
+  },
+  "keywords": [],
+  "author": "Vyacheslav Myagkov",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^9.0.0",
+    "@typescript-eslint/parser": "^7.5.0"
+  }
+}
