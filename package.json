@@ -1,10 +1,10 @@
 {
-  "name": "eslint-plugin-sort-vars",
+  "name": "eslint-plugin-no-if-use-switch",
   "version": "1.0.0",
-  "description": "Custom ESLint plugin for sort vars",
+  "description": "Custom ESLint plugin for no used if",
   "main": "index.js",
   "scripts": {
-    "test": "node ./sort-vars.test.js"
+    "test": "node ./no-if-use-switch.test.js"
   },
   "keywords": [],
   "author": "Vyacheslav Myagkov",

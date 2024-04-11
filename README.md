@@ -1,16 +1,30 @@
-# Secure names eslint rule
+# eslint-plugin-no-if-use-switch
 
-A variable name should be secure and contain at least 8 letters (uppercase and lowercase), digits and symbols ("$" and "\_").
+A plugin that prevents the use of if or ternary operator, requiring a switch instead. Developed for holyJs Head Hunter stand test.
 
 ### Valid
 
 ```js
-var AbCd35$0;
-let At84_567Sd;
+switch (a) {
+    case 3:
+        console.log(true)
+        break
+    default:
+        console.log(false)
+}
 ```
 
 ### Invalid
 
 ```js
-const abc = 123;
+if (a) {
+    console.log(true)
+} else if (b) {
+    console.log(true)
+} else {
+    console.log(false)
+}
+```
+```js
+const a = true ? 'a' : 'b';
 ```

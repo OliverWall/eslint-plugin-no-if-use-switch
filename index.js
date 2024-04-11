@@ -1,5 +1,5 @@
 module.exports = {
   rules: {
-    "sort-vars": require("./sort-vars"),
+    "no-if-use-switch": require("./no-if-use-switch"),
   },
 };
