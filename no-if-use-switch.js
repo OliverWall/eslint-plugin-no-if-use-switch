@@ -8,8 +8,8 @@ module.exports = {
     fixable: false,
     schema: [],
     messages: {
-      errorIfOperator: 'Prefer using switch statement over if statement',
-      errorTernaryOperator: 'Prefer using switch statement over ternary operator'
+      errorIfOperator: 'Нельзя использовать if, используйте switch',
+      errorTernaryOperator: 'Нельзя использовать тернарный оператор, используйте switch',
     }
   },
 
